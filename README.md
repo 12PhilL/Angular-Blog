@@ -1,59 +1,92 @@
-# Yes
+# Blog Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Este projeto é um blog desenvolvido em Angular como parte do bootcamp **Decola Tech 2025 da DIO (Digital Innovation One)**. O objetivo é criar uma aplicação web que exibe posts em um layout moderno e responsivo, utilizando as melhores práticas de desenvolvimento com Angular.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Funcionalidades
 
-```bash
-ng serve
-```
+- Exibição de posts em destaque (big card) e posts secundários (small cards).
+- Navegação entre páginas usando `routerLink`.
+- Layout responsivo e moderno.
+- Dados mockados (fake data) para simular uma API.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Ferramentas e Tecnologias Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Angular**: Framework utilizado para desenvolver a aplicação.
+- **TypeScript**: Linguagem principal para desenvolvimento.
+- **HTML5 e CSS3**: Para estruturação e estilização da aplicação.
+- **Angular Router**: Para gerenciamento de rotas e navegação entre páginas.
+- **Dados Mockados**: Utilização de um arquivo `dataFake.ts` para simular dados de uma API.
+- **Git e GitHub**: Para versionamento e hospedagem do código.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📂 Estrutura do Projeto
 
-```bash
-ng generate --help
-```
+- **`src/app/components`**: Contém os componentes reutilizáveis, como `big-card` e `small-card`.
+- **`src/app/pages`**: Contém as páginas da aplicação, como `home` e `content`.
+- **`src/app/dataFake.ts`**: Arquivo com dados mockados para simular posts do blog.
+- **`src/assets`**: Armazena imagens e outros recursos estáticos.
+- **`src/styles.css`**: Arquivo global de estilos.
 
-## Building
+---
 
-To build the project run:
+## 🛠️ Como Executar o Projeto
 
-```bash
-ng build
-```
+Siga os passos abaixo para configurar e executar o projeto em sua máquina:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Pré-requisitos
 
-## Running unit tests
+- Node.js instalado (versão 16 ou superior).
+- Angular CLI instalado globalmente (`npm install -g @angular/cli`).
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Passos
 
-```bash
-ng test
-```
+1. **Clone o repositório:**
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   
+2. **Acesse a pasta do projeto:**
+   
+   ```bash
+   cd seu-repositorio
 
-For end-to-end (e2e) testing, run:
+3. **Instale as dependências:**
+   
+   ```bash
+   npm install
 
-```bash
-ng e2e
-```
+4. **Execute o servidor de desenvolvimento:**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+   ```bash
+   ng serve
 
-## Additional Resources
+5. **Acesse a aplicação:**
+   Abra o navegador e acesse:
+   
+   ```bash
+   http://localhost:4200
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🎨 Layout
+O layout do blog é composto por:
+
+- **Big Card:** Exibe o post em destaque, com uma imagem grande, título e descrição.
+- **Small Cards:** Exibem posts secundários, com imagem menor e descrição resumida.
+- **Navegação:** Os links nos cards redirecionam para páginas de conteúdo específico.
+
+## 📝 Contexto do Projeto
+Este projeto foi desenvolvido como parte do bootcamp Decola Tech 2025 da DIO, um programa de capacitação em tecnologia que visa formar profissionais qualificados para o mercado de trabalho. O objetivo foi praticar conceitos avançados de Angular, como:
+
+- Criação de componentes reutilizáveis.
+- Uso de @Input para passar dados entre componentes.
+- Configuração de rotas com RouterModule.
+- Desenvolvimento de layouts responsivos.
+
+## 🙌 Agradecimentos
+Agradeço à DIO (Digital Innovation One) e aos instrutores do bootcamp Decola Tech 2025 por proporcionarem essa oportunidade de aprendizado e crescimento profissional.
+
+Feito com ❤️ por [12PhilL](https://github.com/12PhilL).
